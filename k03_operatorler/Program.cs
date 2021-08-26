@@ -47,7 +47,7 @@ namespace k03_operatorler
 
             Console.WriteLine("mail uzantisi giriniz");
             var uzanti = Console.ReadLine();
-            var mailAdresi = ($"{ad}.{soyad}@{uzanti}.com");
+            var mailAdresi = $"{girilenAdi}.{girilenSoyadi}@{uzanti}.com";
 
             Console.WriteLine($"Mail adresiniz:{mailAdresi}");
 

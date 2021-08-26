@@ -30,7 +30,7 @@ namespace k04_Yasamdongusu
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.textDeger = new System.Windows.Forms.TextBox();
+            this.txtDeger = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -39,26 +39,28 @@ namespace k04_Yasamdongusu
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(455, 56);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Arttır";
+            this.button1.Text = "arttır";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textDeger
+            // txtDeger
             // 
-            this.textDeger.Location = new System.Drawing.Point(91, 217);
-            this.textDeger.Name = "textDeger";
-            this.textDeger.Size = new System.Drawing.Size(433, 22);
-            this.textDeger.TabIndex = 1;
+            this.txtDeger.Location = new System.Drawing.Point(91, 217);
+            this.txtDeger.Name = "txtDeger";
+            this.txtDeger.Size = new System.Drawing.Size(433, 22);
+            this.txtDeger.TabIndex = 1;
+            this.txtDeger.TextChanged += new System.EventHandler(this.textDeger_TextChanged);
             // 
             // YasanDongusu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(571, 357);
-            this.Controls.Add(this.textDeger);
+            this.Controls.Add(this.txtDeger);
             this.Controls.Add(this.button1);
             this.Name = "YasanDongusu";
             this.Text = "YasanDongusu";
+            this.Load += new System.EventHandler(this.YasanDongusu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -67,6 +69,6 @@ namespace k04_Yasamdongusu
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textDeger;
+        private System.Windows.Forms.TextBox txtDeger;
     }
 }

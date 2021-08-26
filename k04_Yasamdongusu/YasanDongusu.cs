@@ -17,7 +17,7 @@ namespace k04_Yasamdongusu
         bir değiikenin ömrü iki scope arasındadır. 
         */
         int globalDegisken = 100;
-        string adSoyad = "nur öztürk";
+      
         public YasanDongusu()
         {
             InitializeComponent();
@@ -27,6 +27,16 @@ namespace k04_Yasamdongusu
         {
             globalDegisken += 5;
             txtDeger.Text = globalDegisken.ToString();
+        }
+
+        private void textDeger_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void YasanDongusu_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

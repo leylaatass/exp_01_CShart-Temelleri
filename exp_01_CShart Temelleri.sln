@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k04_Yasamdongusu", "k04_Yas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k05_HataYonetimi", "k05_HataYonetimi\k05_HataYonetimi.csproj", "{33759ACD-6AF5-40EF-9030-89C488A2F31C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k06_KararYapilari", "k06_KararYapilari\k06_KararYapilari.csproj", "{8650EF39-F408-453B-AE80-0304D9AAB958}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{33759ACD-6AF5-40EF-9030-89C488A2F31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33759ACD-6AF5-40EF-9030-89C488A2F31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33759ACD-6AF5-40EF-9030-89C488A2F31C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8650EF39-F408-453B-AE80-0304D9AAB958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8650EF39-F408-453B-AE80-0304D9AAB958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8650EF39-F408-453B-AE80-0304D9AAB958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8650EF39-F408-453B-AE80-0304D9AAB958}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -33,7 +33,7 @@ namespace k05_HataYonetimi
             this.label1 = new System.Windows.Forms.Label();
             this.btnhesapla = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblSonuç = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtSayı
@@ -72,27 +72,29 @@ namespace k05_HataYonetimi
             this.label2.Text = "sonuç";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // lblSonuç
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(88, 273);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 17);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "label3";
+            this.lblSonuç.AutoSize = true;
+            this.lblSonuç.Location = new System.Drawing.Point(88, 273);
+            this.lblSonuç.Name = "lblSonuç";
+            this.lblSonuç.Size = new System.Drawing.Size(62, 17);
+            this.lblSonuç.TabIndex = 4;
+            this.lblSonuç.Text = "lblSonuç";
+            this.lblSonuç.Click += new System.EventHandler(this.lblSonuç_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(638, 340);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblSonuç);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnhesapla);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtSayı);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,7 +106,7 @@ namespace k05_HataYonetimi
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnhesapla;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblSonuç;
     }
 }
 

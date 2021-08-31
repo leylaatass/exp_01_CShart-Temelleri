@@ -31,7 +31,17 @@ namespace k05_HataYonetimi
             //karesini alınız.
             var karesi = sayi * sayi;
             //kullanıcıya göster
-            lblSonuc.Text = karesi.ToString();
+            lblSonuç.Text = karesi.ToString();
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblSonuç_Click(object sender, EventArgs e)
+        {
 
         }
     }

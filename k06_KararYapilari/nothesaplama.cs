@@ -50,7 +50,7 @@ namespace k06_KararYapilari
             var finalDeger = txtFinal.Text;
             var final = Convert.ToDouble(vizeDeger);
 
-            var ortalama = vize * 0.3 + final * 0.7;
+            var ortalama = (vize * 0.3) + (final * 0.7);
 
             if (ortalama >= 0 && ortalama < 30)
             {
@@ -72,7 +72,7 @@ namespace k06_KararYapilari
             {
                 MessageBox.Show("AA/GECTI" + $"Ortalamasi:" + ortalama);
             }
-            else if (ortalama >=100 )
+            else if (ortalama > 100)
             {
                 MessageBox.Show("Geçerli bir sayı giriniz!");
             }

@@ -14,9 +14,12 @@ namespace k07_Döngüler
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.EnableVisualStyles();
+            //Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new Form1());
+           // Application.Run(new whileDongusu());
+           // Application.Run(new DoWhileDongusu());
+            Application.Run(new ForeachDongusu());
         }
     }
 }

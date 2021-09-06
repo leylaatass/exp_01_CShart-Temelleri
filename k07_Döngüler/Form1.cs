@@ -123,6 +123,34 @@ namespace k07_Döngüler
         {
 
         }
+
+        private void btnbreak_Click(object sender, EventArgs e)
+        {
+            //Belli bir koşul sağlandığında döngünün çalışmasını durmka için break kullanılır
+            //1 ile 30 arasındaki sayıları yazdıralım 9'un katı olan ilk sayıyı bulduğu zaman döngüden çıkılsın.
+            for (int i = 1; i <= 30; i++)
+            {
+                if (i% 4==0)
+                {
+                    break;
+                }
+                IstSonuc.Items.Add(i);
+            }
+            MessageBox.Show("Döngü sonlandı.Mesaj kutusu açıldı");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            for (int i = 1; i <= 30; i++)
+            {
+                if (i % 4 ==0)
+                {
+                    return;
+                }
+                IstSonuc.Items.Add(i);
+            }
+            MessageBox.Show("Dögü sonlandı.Mesaj kutusu açılmayacak ve buradaki mesaj görünmeyececek.");
+        }
     }
 }
 

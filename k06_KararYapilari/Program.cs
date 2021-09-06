@@ -21,7 +21,8 @@ namespace k06_KararYapilari
             //Application.Run(new nothesaplama());
             //Application.Run(new Form4());
            // Application.Run(new Form5());
-            Application.Run(new Form6());
+            //Application.Run(new Form6());
+           //Application.Run(new Form6());
         }
     }
 }

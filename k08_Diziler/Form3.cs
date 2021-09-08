@@ -21,7 +21,7 @@ namespace k08_Diziler
             //şifre uzunluğunun 8 karakterden fazla olması gerekiyor.
             //en az bir büyük ve bir küçük harf, bir rakam ve bir sembol içermesi gerekiyor.
 
-           
+           //telden cevabını yaz
             {
 
             }

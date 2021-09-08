@@ -17,7 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k06_KararYapilari", "k06_Ka
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k07_Döngüler", "k07_Döngüler\k07_Döngüler.csproj", "{3B83394D-6F7A-4D2A-8C1D-E8A1F11EC617}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k08_Diziler", "k08_Diziler\k08_Diziler.csproj", "{F3AEC63D-F0F7-49EE-97D2-23FA0322C6C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "k08_Diziler", "k08_Diziler\k08_Diziler.csproj", "{F3AEC63D-F0F7-49EE-97D2-23FA0322C6C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k_09 ArraySinifi", "k_09 ArraySinifi\k_09 ArraySinifi.csproj", "{0D61CF84-A93B-4018-B0FF-F6F51066A3FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ekran koruyucu", "ekran koruyucu\ekran koruyucu.csproj", "{24D10EC9-06AF-4746-A334-26398D3AA06E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{F3AEC63D-F0F7-49EE-97D2-23FA0322C6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3AEC63D-F0F7-49EE-97D2-23FA0322C6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3AEC63D-F0F7-49EE-97D2-23FA0322C6C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D61CF84-A93B-4018-B0FF-F6F51066A3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D61CF84-A93B-4018-B0FF-F6F51066A3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D61CF84-A93B-4018-B0FF-F6F51066A3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D61CF84-A93B-4018-B0FF-F6F51066A3FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D10EC9-06AF-4746-A334-26398D3AA06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D10EC9-06AF-4746-A334-26398D3AA06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D10EC9-06AF-4746-A334-26398D3AA06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D10EC9-06AF-4746-A334-26398D3AA06E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -130,7 +130,7 @@ namespace k07_Döngüler
             //1 ile 30 arasındaki sayıları yazdıralım 9'un katı olan ilk sayıyı bulduğu zaman döngüden çıkılsın.
             for (int i = 1; i <= 30; i++)
             {
-                if (i% 4==0)
+                if (i% 9==0)
                 {
                     break;
                 }

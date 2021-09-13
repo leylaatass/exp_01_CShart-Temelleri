@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace k10_HazirFonksiyonlar
+namespace Kendi_Yaptıklarım
 {
     static class Program
     {
@@ -14,13 +14,10 @@ namespace k10_HazirFonksiyonlar
         [STAThread]
         static void Main()
         {
-            //Application.EnableVisualStyles();
+           // Application.EnableVisualStyles();
             //Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Form1());
-            //Application.Run(new matematik_fonksiyonlar());
-            //Application.Run(new sfonksiyonlar());
-            Application.Run(new DatetimrFonksiyonlar());
-
+           // Application.Run(new Form1());
+            Application.Run(new Döngüler());
         }
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{516D2B48-792D-43A1-8065-DE8956B67FBC}</ProjectGuid>
+    <ProjectGuid>{5FCC31BF-30BE-4A02-9518-C6B0A6B49B35}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>k10_HazirFonksiyonlar</RootNamespace>
-    <AssemblyName>k10_HazirFonksiyonlar</AssemblyName>
+    <RootNamespace>Kendi_Yaptıklarım</RootNamespace>
+    <AssemblyName>Kendi Yaptıklarım</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DatetimrFonksiyonlar.cs">
+    <Compile Include="Döngüler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DatetimrFonksiyonlar.Designer.cs">
-      <DependentUpon>DatetimrFonksiyonlar.cs</DependentUpon>
+    <Compile Include="Döngüler.Designer.cs">
+      <DependentUpon>Döngüler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Döngüler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Döngüler.Designer.cs">
+      <DependentUpon>Form Döngüler.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -58,25 +64,13 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="matematik fonksiyonlar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="matematik fonksiyonlar.Designer.cs">
-      <DependentUpon>matematik fonksiyonlar.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="sfonksiyonlar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="sfonksiyonlar.Designer.cs">
-      <DependentUpon>sfonksiyonlar.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="DatetimrFonksiyonlar.resx">
-      <DependentUpon>DatetimrFonksiyonlar.cs</DependentUpon>
+    <EmbeddedResource Include="Döngüler.resx">
+      <DependentUpon>Döngüler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="matematik fonksiyonlar.resx">
-      <DependentUpon>matematik fonksiyonlar.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -87,9 +81,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="sfonksiyonlar.resx">
-      <DependentUpon>sfonksiyonlar.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

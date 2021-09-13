@@ -103,8 +103,8 @@ namespace k10_HazirFonksiyonlar
             var sayi3 = Convert.ToInt32(textBox4.Text);
 
             var buyuk1 = Math.Max(Math.Max(sayi1, sayi2),sayi3);
-            var enBuyuk = Math.Max(textBox2.Text);
-            MessageBox.Show(enBuyuk.ToString());
+            //var enBuyuk = Math.Max(textBox2.Text); // ??
+           // MessageBox.Show(enBuyuk.ToString());
         }
     }
 }

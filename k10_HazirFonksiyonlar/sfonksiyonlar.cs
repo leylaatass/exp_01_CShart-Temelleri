@@ -73,8 +73,8 @@ namespace k10_HazirFonksiyonlar
                 .Replace('ö', 'o')
                 .Replace('ş', 's')
                 .Replace(' ', '.');
-            var mail = $"{donusturulen} @bilgeada.com";
-            MessageBox.Show(mail);
+            //var mail = $"{donusturulen} @bilgeadam.com";  // Burayi ben bulunca sana yollaycm
+           // MessageBox.Show(mail);
 
         }
 
